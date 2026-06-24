@@ -1,0 +1,20 @@
+body {
+  background: #000;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+body.show {
+    opacity: 1;
+}
+
+#wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(rules1.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: opacity 1s ease;
+}
