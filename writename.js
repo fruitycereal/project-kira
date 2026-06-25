@@ -55,7 +55,7 @@ window.onload = () => {
                             }, 300);
 
                         video.addEventListener('ended', () => {
-                            window.location.href = 'end.html';
+                            window.location.href = 'end1.html';
                         });
 
                     }, 800);

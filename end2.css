@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+* {
+    font-family: 'DeathFont', serif;
+}
+
+body {
+    background: black;
+    color: white;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+body.show {
+    opacity: 1;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#archive-box {
+    width: 650px;
+    height: 450px;
+    border: 1px solid white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#archive-list {
+    margin-top: 40px;
+    line-height: 2;
+}
+
+#total-records {
+    color: #c11616;
+    text-align: right;
+    margin-top: 15px;
+    flex-shrink: 0;
+}
+
+#records-container {
+    flex: 1;
+    overflow-y: auto;
+    margin-top: 20px;
+    border: 1px solid #333;
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+#rewrite-btn {
+    width: 200px;
+    max-width: 90vw;
+    font-size: 1.5rem;
+    margin-top: 38px;
+    border: 2px solid #D9D9D9;
+    background-color: #D9D9D9;
+    color: #000;
+    font-weight: 500;
+    padding: 10px 20px;
+    cursor: pointer;
+    letter-spacing: 0.2em;
+}
+
+#rewrite-btn:hover {
+  color: #D9D9D9;
+  background-color: transparent;
+}

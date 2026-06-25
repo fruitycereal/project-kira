@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+body {
+    background: black;
+    color: white;
+    margin: 0;
+    height: 100vh;
+
+    opacity: 0;
+    transition: opacity 1s ease;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body.show {
+    opacity: 1;
+}
+
+#container {
+    text-align: center;
+}
+
+#name,
+#details,
+#justice {
+    opacity: 0;
+    transition: opacity 1s ease;
+    font-size: 3rem;
+}
+
+#status {
+    color: #AA1313;
+}
+
+#name,
+#details {
+    font-size: 2rem;
+}
+
+#justice {
+    margin-top: 80px;
+    color: #AA1313;
+    font-size: 3rem;
+}

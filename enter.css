@@ -38,13 +38,12 @@ body {
   position: relative;
   z-index: 10;
   margin-top: 500px;
-  background: transparent;
   border: 2px solid #D9D9D9;
   background-color: #D9D9D9;
   color: #000;
   font-family: 'DeathFont', serif;
   font-size: 24px;
-  font-weight: medium;
+  font-weight: 500;
   padding: 8px 50px;
   cursor: pointer;
   letter-spacing: 0.2em;
